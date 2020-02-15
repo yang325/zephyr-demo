@@ -1,0 +1,12 @@
+# demo/west.yml:
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v1.14.1
+      import: true
+  self:
+    path: demo
