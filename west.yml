@@ -3,10 +3,18 @@ manifest:
   remotes:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
+    - name: myproject
+      url-base: https://github.com/yang325
   projects:
     - name: zephyr
       remote: zephyrproject-rtos
       revision: v1.14.1
       import: true
+    - name: ble_peripheral
+      remote: myproject
+      path: demo/peripheral
+    - name: ble_mesh
+      remote: myproject
+      path: demo/mesh
   self:
-    path: demo
+    path: project
