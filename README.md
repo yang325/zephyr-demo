@@ -15,7 +15,7 @@ pip3 install --user -U west
 ## Get the demo
 
 ```bash
-west init -m https://github.com/yang325/zephyr-demo zephyr-demo
+west init -m git@github.com:yang325/zephyr-demo zephyr-demo
 cd zephyr-demo
 west update
 ```
