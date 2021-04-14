@@ -4,7 +4,7 @@ manifest:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
     - name: myproject
-      url-base: git@github.com:yang325
+      url-base: https://github.com/yang325
   projects:
     - name: zephyr
       remote: zephyrproject-rtos
