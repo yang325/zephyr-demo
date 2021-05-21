@@ -9,6 +9,7 @@ manifest:
     - name: zephyr
       remote: zephyrproject-rtos
       import: true
+      revision: main
     - name: ble_gamepad
       remote: myproject
       path: demo/gamepad
